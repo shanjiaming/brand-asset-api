@@ -1,0 +1,14 @@
+{
+  "name": "brand-asset-api",
+  "version": "1.0.0",
+  "description": "Zero-dependency Brand Logo, Color Palette, Font & Metadata Extractor API ready for RapidAPI",
+  "type": "module",
+  "main": "src/server.mjs",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
